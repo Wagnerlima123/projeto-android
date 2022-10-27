@@ -21,6 +21,9 @@
   padding: 0;
 }
 
+.larger-only {
+  display: none;
+}
 body {
   background-color: var(--cor00);
   font-family: var(--fonte-padrao);
@@ -203,5 +206,11 @@ footer a:hover {
 @media (max-width: 520px) {
   .candy {
     columns: 1;
+  }
+}
+
+@media (max-width: 520px) {
+  .larger-only {
+    display: flex;
   }
 }
